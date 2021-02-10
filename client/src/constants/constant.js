@@ -1,0 +1,8 @@
+export const API_REQUEST = 'API_REQUEST'
+export const API_REQUEST_SUCCESS = 'API_REQUEST_SUCCESS'
+export const API_REQUEST_FAIL = 'API_REQUEST_FAIL'
+
+export const SET_IS_FOUR = "SET_IS_FOUR"
+
+export const SET_SEARCHBAR_VALUE = "SET_SEARCHBAR_VALUE"
+export const SET_ORDER = "SET_ORDER"

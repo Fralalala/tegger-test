@@ -29,8 +29,8 @@ app.get("/api/search", async (req, res) => {
       key: process.env.api_key,
       part: "snippet",
       maxResults: 12,
-      q: myQ,
-      type: "video",
+      q: myQ, 
+      type: "video", 
       order: myOrder,
       channelId: "UCmtyQOKKmrMVaKuRXz02jbQ",
       pageToken: myPageToken,
@@ -60,8 +60,9 @@ app.get("/api/search", async (req, res) => {
     res.status(403).send({
       error: true,
       result: [],
+      
     });
-    
+
   }
 });
 
